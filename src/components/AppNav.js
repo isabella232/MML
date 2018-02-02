@@ -20,10 +20,13 @@ export const AppNav = () => (
           <NavItem eventKey={1} href='/'>Home</NavItem>
         </LinkContainer>
         <LinkContainer to='/map'>
-          <NavItem eventKey={2} href='/map'>Aggregate</NavItem>
+          <NavItem eventKey={2} href='/map'>Favoris</NavItem>
         </LinkContainer>
         <LinkContainer to='/trace'>
-          <NavItem eventKey={3} href='/trace'>Itinerary</NavItem>
+          <NavItem eventKey={3} href='/trace'>Itineraires</NavItem>
+        </LinkContainer>
+        <LinkContainer to='/help'>
+          <NavItem eventKey={3} href='/help'>Aide</NavItem>
         </LinkContainer>
       </Nav>
     </Navbar.Collapse>

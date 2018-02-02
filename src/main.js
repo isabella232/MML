@@ -13,6 +13,7 @@ import HomePage from './containers/HomePage'
 import FavorisPage from './containers/FavorisPage'
 import AppNav from './components/AppNav'
 import ItineraryPage from './containers/ItineraryPage'
+import HelpPage from './containers/Help'
 import 'bootstrap-css'
 import 'bootstrap-theme-css'
 import 'font-awesome-css'
@@ -53,6 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <Route exact path='/' component={HomePage} />
           <Route path='/map' component={FavorisPage} />
           <Route path='/trace' component={ItineraryPage} />
+          <Route path='/help' component={HelpPage} />
         </div>
       </BrowserRouter>
     </Provider>
