@@ -17,8 +17,8 @@ Main feature:
 You can install the application by using [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com)
 
 ```sh
-$ git clone https://github.com/zhangshuwei/mappingmylife-react-v3.git
-$ cd mappingmylife-react-v3
+$ git clone https://github.com/CezaryOrange/MML.git
+$ cd MML
 $ npm install
 # or
 $ yarn install
@@ -68,3 +68,5 @@ $ git checkout build
 Copy the files here and then push to remote git branch.
 
 ## License
+
+MIT License
