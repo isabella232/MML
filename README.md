@@ -17,7 +17,7 @@ Main feature:
 You can install the application by using [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com)
 
 ```sh
-$ git clone https://github.com/CezaryOrange/MML.git
+$ git clone (this repo)
 $ cd MML
 $ npm install
 # or
